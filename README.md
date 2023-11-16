@@ -14,6 +14,14 @@
 然后进去项目根目录输入以下命令<br>
 
 ```
+//安装依赖
+npm install
+
+//构造静态文件夹
+npm run build
+```
+
+```
 pip install -r requirements
 //启动
 python app.py
