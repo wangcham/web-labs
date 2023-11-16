@@ -6,7 +6,7 @@ from api.register import register_app
 from api.modifyinfo import modifyinfo_app
 from api.admin import admin_app
 
-app = Quart(__name__, template_folder="/web/dist", static_folder="/web/dist", static_url_path="")
+app = Quart(__name__, template_folder="./web/dist", static_folder="./web/dist", static_url_path="")
 app.register_blueprint(login_app)
 app.register_blueprint(register_app)
 app.register_blueprint(modifyinfo_app)
